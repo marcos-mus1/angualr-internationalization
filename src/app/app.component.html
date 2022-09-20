@@ -1,34 +1,36 @@
 <app-navbar></app-navbar>
-<section><div class="content">
-  <h1>{{'home.heroTitle' | translate}}</h1>
-  <h2>{{'home.heroDescription' | translate}}</h2>
-  <div class="btn">
-    <div class="primary">
-      <a>{{'home.serviceBtnLabel' | translate}}</a>
-    </div>
-    <div class="secondary">
-      <a>{{'home.blogBtnLabel' | translate}}</a>
+
+  <div class="hero">
+    <h1>{{ "home.heroTitle" | translate }}</h1>
+    <h2>{{ "home.heroDescription" | translate }}</h2>
+    <div class="btn">
+      <div class="primary">
+        <a href="#services">{{ "home.serviceBtnLabel" | translate }}</a>
+      </div>
+      <div class="secondary">
+        <a href="#">{{ "home.blogBtnLabel" | translate }}</a>
+      </div>
     </div>
   </div>
-</div></section>
-<section>
-
+<section id="services">
+  <div class="header">
+    <h2>{{'services.title' | translate}}</h2>
+    <p>{{'services.description' | translate}}</p>
+  </div>
   <div class="content">
     <div>
-      <h3>{{'services.serviceOne.title' | translate }}</h3>
-      <p>{{'services.serviceOne.description' | translate }}</p>
+      <h3>{{ "services.serviceOne.title" | translate }}</h3>
+      <p>{{ "services.serviceOne.description" | translate }}</p>
     </div>
     <div>
-      <h3>{{'services.serviceTwo.title' | translate }}</h3>
-      <p>{{'services.serviceTwo.description' | translate }}</p>
+      <h3>{{ "services.serviceTwo.title" | translate }}</h3>
+      <p>{{ "services.serviceTwo.description" | translate }}</p>
     </div>
     <div>
-      <h3>{{'services.serviceThree.title' | translate }}</h3>
-      <p>{{'services.serviceThree.description' | translate }}</p>
+      <h3>{{ "services.serviceThree.title" | translate }}</h3>
+      <p>{{ "services.serviceThree.description" | translate }}</p>
     </div>
   </div>
 </section>
 
-<footer>
-  &copy;2022 Zabibu ETS
-</footer>
+<footer>&copy;2022 Zabibu ETS</footer>

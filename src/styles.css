@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.15;
+}
+section,
+footer {
+  padding: 5rem 5vw;
+  min-height: calc(100vh - 10rem);
+}

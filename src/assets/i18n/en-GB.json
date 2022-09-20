@@ -1,4 +1,7 @@
 {
+    "nav":{
+        "title":"Change the Language"
+    },
     "home": {
         "title": "Zabibu ETS",
         "heroTitle": "We are Zabibu",
@@ -7,6 +10,8 @@
         "blogBtnLabel": "Our last news"
     },
     "services":{
+        "title":"Our Services",
+    "description":"Zabibu helps you realize the potential that meets your aspirations.",
       "serviceOne":  {
             "title":"Consulting",
             "description":"Let us help you take your application to the next level - planning the next big steps, reviewing the architecture."

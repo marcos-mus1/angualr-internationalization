@@ -1,0 +1,75 @@
+.hero {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5vw;
+
+}
+
+.hero h1 {
+    font-size: 4.6rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.hero h2 {
+    max-width: 45vw;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.hero .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero .btn .primary a,
+.hero .btn .secondary a {
+    text-decoration: none !important;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hero .btn .primary{ cursor: pointer;
+    background-color: crimson;
+    color: white !important;
+    padding: 1rem !important;
+}
+
+.header{
+    padding: 2rem;
+    text-align: center;
+}
+
+.header h1{
+    padding-bottom: 1rem;
+}
+
+.header p{
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.content{
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content div h3{
+    padding-bottom: 1.2rem;
+}
+
+.content div p{
+    font-weight: 300;
+}

@@ -1,8 +1,6 @@
-<nav class="container mb-4 mt-4">
-  <div class="row">
-    <div class="col-10"></div>
-    <div class="col-2">
-      <select
+<nav>
+  <h1>{{'nav.title' | translate}}</h1>
+  <select
         class="custom-select"
         #selectedLang
         (change)="switchLang(selectedLang.value)"
@@ -15,6 +13,4 @@
           {{ language }}
         </option>
       </select>
-    </div>
-  </div>
 </nav>
