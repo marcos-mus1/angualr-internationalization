@@ -1,0 +1,25 @@
+{
+    "home": {
+        "title": "Zabibu ETS",
+        "heroTitle": "We are Zabibu",
+        "heroDescription": "We give life to your dreams & a body to your imagination",
+        "serviceBtnLabel": "Find our services",
+        "blogBtnLabel": "Our last news"
+    },
+    "services":{
+      "serviceOne":  {
+            "title":"Consulting",
+            "description":"Let us help you take your application to the next level - planning the next big steps, reviewing the architecture."
+        },
+        "serviceTwo":  {
+            "title":"Development",
+            "description":"Zabibu can be part of your development process, ensuring that you build scalable, professional quality applications."
+        },
+        "serviceThree": {
+            "title":"Formations Pro & Coaching",
+            "description":"No need to remove developers from their projects to train them thanks to our immersion training."
+        }
+    }
+       
+    
+}

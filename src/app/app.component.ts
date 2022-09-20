@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-translations';
+  constructor(
+    public translate: TranslateService,
+    private title: Title
+  ){
+    translate.addLangs(['fr-FR','en-GB']);
+    const lang = translate.getBrowserLang();
+    if((lang !== 'en-GB') && (lang !== 'fr-FR')){
+      translate.setDefaultLang('fr-FR');
+    }
+    
+  }
 }
